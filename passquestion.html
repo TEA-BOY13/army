@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The_Armed_forces_Pass_Question</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-image: url(fbbag.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #dashboard{
+    height: 110px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: aqua;
+
+}
+#dashb{
+    height: 100px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 30px;
+    margin-top: -35px;
+
+} 
+     /* new line */
+     .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+  }
+  
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+  #a5{
+        background-color: olive;
+    }
+    a:hover{
+    box-shadow: 3px 4px 3px yellowgreen;
+    }
+    button:hover{
+        box-shadow: 3px 4px 3px yellowgreen
+    }
+  #logo{
+     height: 80px;
+     width: 120px;
+     margin: auto;
+     margin-top: -50px;
+     margin-left: 50px;
+     border-radius: 50px;
+     box-shadow: 3px 4px 3px aqua;
+  }
+  hr{
+    box-shadow: 10px 10px 8px;
+    margin-top: 10%;
+  }
+  footer{
+    color: aqua;
+    font-size: medium;
+    font-weight: ligther;
+    font-style: italic;
+    margin-top: 0%;
+    margin-left: 50px;
+  }
+  #passq{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(fbbag2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  li{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    
+  }
+  a{
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 6px 5px 4px black;
+  }
+</style>
+<body>
+
+    <div id="dashboard">
+        <div id="mySidenav" class="sidenav">
+            <img src="logo.jpg" alter="image not foundn!" id="logo">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="about.html" id="a0">About</a>
+              <a href="army_songs.html" id="a1">Army_Songs</a>
+              <a href="index.html" id="a2">Phonetics_Alphabet</a>
+              <a href="videos.html" id="a3">Shots_Videos</a>
+              <a href="passquestion.html" id="a5">Pass_question</a>
+              <a href="history.html" id="a6">History_of_forces</a>
+              <a href="contact1.html" id="a4">Contact</a>
+
+              <hr>
+              
+              <footer>
+              &copy Tea-boy13 2025
+              </footer>
+            </div>
+            <span style="font-size:30px;cursor:pointer; float: left;" onclick="openNav()">☰ </span> 
+        <img src="dash1.jpg" alt="image not founds!" id="dashb">
+    </div>
+
+    <div id="passq">
+        <ul>
+            <li> <a href="naf1.pdf">Naf_Pass_Questio</a></li>
+            <li> <a href="naf2.pdf">Naf_Pass_Questio</a></li>
+            <li> <a href="navy1.pdf">Navy_Pass_Questio</a></li>
+            <li> <a href="navy2.pdf">Navy_Pass_Questio</a></li>
+            <li> <a href="navy3.pdf">Navy_Pass_Questio</a></li>
+            <li> <a href="navy4.pdf">Navy_Pass_Questio</a></li>
+        </ul>
+       
+    </div>
+
+    <script>
+         var dashb1 = [
+        'dash1.jpg', 'nafban.jpg', 'dash3.jpg', 'dash2.jpg', 'dash.jpg'
+
+  ];
+  var tim = setInterval(tea, 2000);
+  var num3 = 0;
+  function tea(){
+    var dashb = document.getElementById('dashb');
+    num3++;
+    if(num3 == dashb1.length){
+        num3 = 0;
+    }
+
+    dashb.src = dashb1[num3];
+  }
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+    </script>
+</body>
+</html>

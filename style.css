@@ -1,0 +1,125 @@
+body{
+    text-align: center;
+    background-image: url(baground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#dashboard{
+    height: 110px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: aqua;
+
+}
+#dashb{
+    height: 100px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 30px;
+    margin-top: -35px;
+
+} 
+/* new line */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+  }
+  
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+  #logo{
+     height: 80px;
+     width: 120px;
+     margin: auto;
+     margin-top: -50px;
+     margin-left: 8px;
+     border-radius: 50px;
+     box-shadow: 3px 4px 3px aqua;
+  }
+  footer{
+    color: aqua;
+    font-size: medium;
+    font-weight: ligther;
+    font-style: italic;
+    margin-top: 100%;
+  }
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    color:lawngreen;
+    margin-top: 2%;
+    margin-left: 4%;
+    
+}
+#a1{
+    background-color: olive;
+}
+a:hover{
+   box-shadow: 3px 4px 3px yellowgreen
+}
+#divs{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#nnr1{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px green;
+}
+#song{
+    height: 30px;
+    width: 280px;
+    border: none;
+    margin-top: -30%;
+    
+}
+button{
+    text-align: center;
+    margin: auto;
+    margin-top: -10px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold; 
+    border: none;
+}
+#button1{
+    margin-left: 100px;
+}
